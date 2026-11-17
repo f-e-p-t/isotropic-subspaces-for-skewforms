@@ -6,13 +6,12 @@ import time
 start = time.time()
 np.set_printoptions(threshold=np.inf)
 
-# Program begins ---------------------------------
-
-# d(F, n, k)
+# d(F, n, k) ---------------------------------------------------------------------------------------------------------------
 charF = 2 # prime-order finite field only
 n = 4
 k = 4
 dim_W = 2 # all 1-dimensional subspaces are isotropic for an alternating bilinear form - this should be at least 2
+# --------------------------------------------------------------------------------------------------------------------------
 
 relevant_ents = ((n*(n - 1)) // 2)
 space_size = (charF**n) - 1
