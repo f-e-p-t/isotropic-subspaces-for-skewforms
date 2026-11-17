@@ -8,5 +8,5 @@ Buhler, Gupta and Harris' 1987 paper finds an upper bound on $d($**F**$, n, k)$ 
 ## Usage
 Set **F**, $n$ and $k$ by changing the variables at the top of the Python file. The last variable is dim_W. The program will report the number of collections $\alpha$ of $k$ skewforms that admit an isotropic subspace of dimension dim_W.
 ### What do the Results Mean?
-- Every collection of skewforms admits an isotropic subspace of dimension dim_W: $d($**F**$, n, k)\geq dim_W$
-- At least one collection of skewforms did not admit a subspace of dimension dim_W: $d($**F**$, n, k) < dim_W$
+- Every collection of skewforms admits an isotropic subspace of dimension dim_W: $d($**F**$, n, k)\geq$ dim_W
+- At least one collection of skewforms did not admit a subspace of dimension dim_W: $d($**F**$, n, k)$ < dim_W
